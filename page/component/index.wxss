@@ -1,0 +1,79 @@
+@import '../common/common.wxss';
+swiper {
+    height: 200rpx;
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+}
+
+.select-title,.newest-title{
+    width: 100%;
+    padding:30rpx 0;
+    height: 40rpx;
+    color: #AB956D;
+    text-align: center;
+}
+.select-top-small{
+    width: 375rpx;
+    height: 375rpx;
+    float: left;
+}
+.select-bottom,.select-top{
+    width: 100%;
+    height: 375rpx;
+}
+.select-top-small image,.select-bottom image,.select-top-small navigator,.select-bottom navigator{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.categroy-top{
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.categroy-top .cate-list{
+    
+    line-height: 90rpx;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    width: 50%;
+    float: left;
+}
+.categroy-top .cate-list.on{
+    color: #AB956D;
+    border-color: #AB956D;
+    
+   
+}
+
+.newest-box{
+    padding:0 0rpx;
+    background: #eeeeee;
+}
+.newest-box .newest-list{
+    display: inline-block;
+    width: 100%;
+    
+    margin:4rpx 0 0 0;
+    border-radius: 0px;
+    text-align: left;
+    background: white;
+   
+}
+.newest-box .newest-list:nth-child(2n){
+    margin-right: 0;
+}
+.newest-box .newest-list image{
+    width: 120rpx;
+    height: 120rpx;
+    margin: 20rpx 0 10rpx;
+}
+.newest-box .newest-list .newest-text{
+    font-size: 32rpx;
+    color: dar
+}
